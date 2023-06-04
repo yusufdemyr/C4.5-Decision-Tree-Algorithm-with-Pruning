@@ -1,0 +1,220 @@
+// Decision Tree
+digraph {
+	<__main__.Node object at 0x0000022C8B3CEC80> [label="A9 <= f
+Entropy = 0.983
+Information Gain = 0.433" fillcolor=lightblue shape=box style=filled]
+	<__main__.Node object at 0x0000022CA511D180> [label="A3 <= 0.165
+Entropy = 0.348
+Information Gain = 0.084" fillcolor=lightblue shape=box style=filled]
+	<__main__.Node object at 0x0000022CA51961D0> [label="A8 <= 0.04
+Entropy = 0.993
+Information Gain = 0.191" fillcolor=lightblue shape=box style=filled]
+	<__main__.Node object at 0x0000022CA51976A0> [label="A4 <= u
+Entropy = 0.881
+Information Gain = 0.192" fillcolor=lightblue shape=box style=filled]
+	<__main__.Node object at 0x0000022CA51B9060> [label="A2 <= 20.42
+Entropy = 0.592
+Information Gain = 0.306" fillcolor=lightblue shape=box style=filled]
+	<__main__.Node object at 0x0000022CA51BA380> [label="A2 <= 16.17
+Entropy = 1.0
+Information Gain = 1.0" fillcolor=lightblue shape=box style=filled]
+	<__main__.Node object at 0x0000022CA51BB3A0> [label=Good fillcolor=lightgreen shape=ellipse style=filled]
+	<__main__.Node object at 0x0000022CA51BA380> -> <__main__.Node object at 0x0000022CA51BB3A0> [xlabel=True]
+	<__main__.Node object at 0x0000022CA51D80D0> [label=Bad fillcolor=lightpink shape=ellipse style=filled]
+	<__main__.Node object at 0x0000022CA51BA380> -> <__main__.Node object at 0x0000022CA51D80D0> [label=False]
+	<__main__.Node object at 0x0000022CA51B9060> -> <__main__.Node object at 0x0000022CA51BA380> [xlabel=True]
+	<__main__.Node object at 0x0000022CA51BBFA0> [label=Good fillcolor=lightgreen shape=ellipse style=filled]
+	<__main__.Node object at 0x0000022CA51B9060> -> <__main__.Node object at 0x0000022CA51BBFA0> [label=False]
+	<__main__.Node object at 0x0000022CA51976A0> -> <__main__.Node object at 0x0000022CA51B9060> [xlabel=True]
+	<__main__.Node object at 0x0000022CA5195750> [label="A1 <= a
+Entropy = 0.918
+Information Gain = 0.918" fillcolor=lightblue shape=box style=filled]
+	<__main__.Node object at 0x0000022CA51BBA00> [label=Bad fillcolor=lightpink shape=ellipse style=filled]
+	<__main__.Node object at 0x0000022CA5195750> -> <__main__.Node object at 0x0000022CA51BBA00> [xlabel=True]
+	<__main__.Node object at 0x0000022CA51D8B50> [label=Good fillcolor=lightgreen shape=ellipse style=filled]
+	<__main__.Node object at 0x0000022CA5195750> -> <__main__.Node object at 0x0000022CA51D8B50> [label=False]
+	<__main__.Node object at 0x0000022CA51976A0> -> <__main__.Node object at 0x0000022CA5195750> [label=False]
+	<__main__.Node object at 0x0000022CA51961D0> -> <__main__.Node object at 0x0000022CA51976A0> [xlabel=True]
+	<__main__.Node object at 0x0000022CA5195840> [label="A8 <= 0.665
+Entropy = 0.722
+Information Gain = 0.322" fillcolor=lightblue shape=box style=filled]
+	<__main__.Node object at 0x0000022CA51BAA40> [label=Bad fillcolor=lightpink shape=ellipse style=filled]
+	<__main__.Node object at 0x0000022CA5195840> -> <__main__.Node object at 0x0000022CA51BAA40> [xlabel=True]
+	<__main__.Node object at 0x0000022CA51BAB60> [label="A14 <= 240.0
+Entropy = 1.0
+Information Gain = 1.0" fillcolor=lightblue shape=box style=filled]
+	<__main__.Node object at 0x0000022CA51BBE80> [label=Good fillcolor=lightgreen shape=ellipse style=filled]
+	<__main__.Node object at 0x0000022CA51BAB60> -> <__main__.Node object at 0x0000022CA51BBE80> [xlabel=True]
+	<__main__.Node object at 0x0000022CA51D85B0> [label=Bad fillcolor=lightpink shape=ellipse style=filled]
+	<__main__.Node object at 0x0000022CA51BAB60> -> <__main__.Node object at 0x0000022CA51D85B0> [label=False]
+	<__main__.Node object at 0x0000022CA5195840> -> <__main__.Node object at 0x0000022CA51BAB60> [label=False]
+	<__main__.Node object at 0x0000022CA51961D0> -> <__main__.Node object at 0x0000022CA5195840> [label=False]
+	<__main__.Node object at 0x0000022CA511D180> -> <__main__.Node object at 0x0000022CA51961D0> [xlabel=True]
+	<__main__.Node object at 0x0000022CA5195B40> [label="A3 <= 19.0
+Entropy = 0.2
+Information Gain = 0.023" fillcolor=lightblue shape=box style=filled]
+	<__main__.Node object at 0x0000022CA51BB940> [label="A8 <= 1.25
+Entropy = 0.178
+Information Gain = 0.015" fillcolor=lightblue shape=box style=filled]
+	<__main__.Node object at 0x0000022CA51BA4D0> [label="A2 <= 33.08
+Entropy = 0.093
+Information Gain = 0.024" fillcolor=lightblue shape=box style=filled]
+	<__main__.Node object at 0x0000022CA51BAB00> [label=Bad fillcolor=lightpink shape=ellipse style=filled]
+	<__main__.Node object at 0x0000022CA51BA4D0> -> <__main__.Node object at 0x0000022CA51BAB00> [xlabel=True]
+	<__main__.Node object at 0x0000022CA51D9510> [label="A3 <= 0.375
+Entropy = 0.271
+Information Gain = 0.113" fillcolor=lightblue shape=box style=filled]
+	<__main__.Node object at 0x0000022CA51D8BE0> [label=Good fillcolor=lightgreen shape=ellipse style=filled]
+	<__main__.Node object at 0x0000022CA51D9510> -> <__main__.Node object at 0x0000022CA51D8BE0> [xlabel=True]
+	<__main__.Node object at 0x0000022CA51DA2C0> [label="A15 <= 501
+Entropy = 0.162
+Information Gain = 0.115" fillcolor=lightblue shape=box style=filled]
+	<__main__.Node object at 0x0000022CA51DAD70> [label=Bad fillcolor=lightpink shape=ellipse style=filled]
+	<__main__.Node object at 0x0000022CA51DA2C0> -> <__main__.Node object at 0x0000022CA51DAD70> [xlabel=True]
+	<__main__.Node object at 0x0000022CA51DBE50> [label=Good fillcolor=lightgreen shape=ellipse style=filled]
+	<__main__.Node object at 0x0000022CA51DA2C0> -> <__main__.Node object at 0x0000022CA51DBE50> [label=False]
+	<__main__.Node object at 0x0000022CA51D9510> -> <__main__.Node object at 0x0000022CA51DA2C0> [label=False]
+	<__main__.Node object at 0x0000022CA51BA4D0> -> <__main__.Node object at 0x0000022CA51D9510> [label=False]
+	<__main__.Node object at 0x0000022CA51BB940> -> <__main__.Node object at 0x0000022CA51BA4D0> [xlabel=True]
+	<__main__.Node object at 0x0000022CA51BB700> [label="A2 <= 22.5
+Entropy = 0.371
+Information Gain = 0.09" fillcolor=lightblue shape=box style=filled]
+	<__main__.Node object at 0x0000022CA51DA200> [label="A2 <= 20.67
+Entropy = 0.881
+Information Gain = 0.281" fillcolor=lightblue shape=box style=filled]
+	<__main__.Node object at 0x0000022CA51DAB60> [label=Bad fillcolor=lightpink shape=ellipse style=filled]
+	<__main__.Node object at 0x0000022CA51DA200> -> <__main__.Node object at 0x0000022CA51DAB60> [xlabel=True]
+	<__main__.Node object at 0x0000022CA51DAC50> [label="A2 <= 22.08
+Entropy = 1.0
+Information Gain = 0.459" fillcolor=lightblue shape=box style=filled]
+	<__main__.Node object at 0x0000022CA51DB130> [label=Good fillcolor=lightgreen shape=ellipse style=filled]
+	<__main__.Node object at 0x0000022CA51DAC50> -> <__main__.Node object at 0x0000022CA51DB130> [xlabel=True]
+	<__main__.Node object at 0x0000022CA51ED150> [label=Bad fillcolor=lightpink shape=ellipse style=filled]
+	<__main__.Node object at 0x0000022CA51DAC50> -> <__main__.Node object at 0x0000022CA51ED150> [label=False]
+	<__main__.Node object at 0x0000022CA51DA200> -> <__main__.Node object at 0x0000022CA51DAC50> [label=False]
+	<__main__.Node object at 0x0000022CA51BB700> -> <__main__.Node object at 0x0000022CA51DA200> [xlabel=True]
+	<__main__.Node object at 0x0000022CA51DB700> [label=Bad fillcolor=lightpink shape=ellipse style=filled]
+	<__main__.Node object at 0x0000022CA51BB700> -> <__main__.Node object at 0x0000022CA51DB700> [label=False]
+	<__main__.Node object at 0x0000022CA51BB940> -> <__main__.Node object at 0x0000022CA51BB700> [label=False]
+	<__main__.Node object at 0x0000022CA5195B40> -> <__main__.Node object at 0x0000022CA51BB940> [xlabel=True]
+	<__main__.Node object at 0x0000022CA51B9960> [label=Good fillcolor=lightgreen shape=ellipse style=filled]
+	<__main__.Node object at 0x0000022CA5195B40> -> <__main__.Node object at 0x0000022CA51B9960> [label=False]
+	<__main__.Node object at 0x0000022CA511D180> -> <__main__.Node object at 0x0000022CA5195B40> [label=False]
+	<__main__.Node object at 0x0000022C8B3CEC80> -> <__main__.Node object at 0x0000022CA511D180> [xlabel=True]
+	<__main__.Node object at 0x0000022CA5197F70> [label="A15 <= 375
+Entropy = 0.753
+Information Gain = 0.113" fillcolor=lightblue shape=box style=filled]
+	<__main__.Node object at 0x0000022CA5197100> [label="A14 <= 110.0
+Entropy = 0.918
+Information Gain = 0.069" fillcolor=lightblue shape=box style=filled]
+	<__main__.Node object at 0x0000022CA51BBD90> [label="A8 <= 1.5
+Entropy = 0.623
+Information Gain = 0.13" fillcolor=lightblue shape=box style=filled]
+	<__main__.Node object at 0x0000022CA51B9C30> [label="A15 <= 50
+Entropy = 0.918
+Information Gain = 0.317" fillcolor=lightblue shape=box style=filled]
+	<__main__.Node object at 0x0000022CA51B9A20> [label="A4 <= u
+Entropy = 0.722
+Information Gain = 0.269" fillcolor=lightblue shape=box style=filled]
+	<__main__.Node object at 0x0000022CA51D8490> [label=Good fillcolor=lightgreen shape=ellipse style=filled]
+	<__main__.Node object at 0x0000022CA51B9A20> -> <__main__.Node object at 0x0000022CA51D8490> [xlabel=True]
+	<__main__.Node object at 0x0000022CA51D95A0> [label=Bad fillcolor=lightpink shape=ellipse style=filled]
+	<__main__.Node object at 0x0000022CA51B9A20> -> <__main__.Node object at 0x0000022CA51D95A0> [label=False]
+	<__main__.Node object at 0x0000022CA51B9C30> -> <__main__.Node object at 0x0000022CA51B9A20> [xlabel=True]
+	<__main__.Node object at 0x0000022CA51D8280> [label=Bad fillcolor=lightpink shape=ellipse style=filled]
+	<__main__.Node object at 0x0000022CA51B9C30> -> <__main__.Node object at 0x0000022CA51D8280> [label=False]
+	<__main__.Node object at 0x0000022CA51BBD90> -> <__main__.Node object at 0x0000022CA51B9C30> [xlabel=True]
+	<__main__.Node object at 0x0000022CA51B9900> [label="A2 <= 54.58
+Entropy = 0.191
+Information Gain = 0.11" fillcolor=lightblue shape=box style=filled]
+	<__main__.Node object at 0x0000022CA51DA6B0> [label=Good fillcolor=lightgreen shape=ellipse style=filled]
+	<__main__.Node object at 0x0000022CA51B9900> -> <__main__.Node object at 0x0000022CA51DA6B0> [xlabel=True]
+	<__main__.Node object at 0x0000022CA51D8A60> [label="A1 <= a
+Entropy = 0.918
+Information Gain = 0.918" fillcolor=lightblue shape=box style=filled]
+	<__main__.Node object at 0x0000022CA51DB8B0> [label=Bad fillcolor=lightpink shape=ellipse style=filled]
+	<__main__.Node object at 0x0000022CA51D8A60> -> <__main__.Node object at 0x0000022CA51DB8B0> [xlabel=True]
+	<__main__.Node object at 0x0000022CA51DA5F0> [label=Good fillcolor=lightgreen shape=ellipse style=filled]
+	<__main__.Node object at 0x0000022CA51D8A60> -> <__main__.Node object at 0x0000022CA51DA5F0> [label=False]
+	<__main__.Node object at 0x0000022CA51B9900> -> <__main__.Node object at 0x0000022CA51D8A60> [label=False]
+	<__main__.Node object at 0x0000022CA51BBD90> -> <__main__.Node object at 0x0000022CA51B9900> [label=False]
+	<__main__.Node object at 0x0000022CA5197100> -> <__main__.Node object at 0x0000022CA51BBD90> [xlabel=True]
+	<__main__.Node object at 0x0000022CA51B8970> [label="A15 <= 147
+Entropy = 0.991
+Information Gain = 0.071" fillcolor=lightblue shape=box style=filled]
+	<__main__.Node object at 0x0000022CA51BB190> [label="A10 <= f
+Entropy = 1.0
+Information Gain = 0.073" fillcolor=lightblue shape=box style=filled]
+	<__main__.Node object at 0x0000022CA51DA770> [label="A7 <= ff
+Entropy = 0.918
+Information Gain = 0.119" fillcolor=lightblue shape=box style=filled]
+	<__main__.Node object at 0x0000022CA51D9E10> [label=Bad fillcolor=lightpink shape=ellipse style=filled]
+	<__main__.Node object at 0x0000022CA51DA770> -> <__main__.Node object at 0x0000022CA51D9E10> [xlabel=True]
+	<__main__.Node object at 0x0000022CA51DAFE0> [label="A8 <= 0.125
+Entropy = 0.974
+Information Gain = 0.087" fillcolor=lightblue shape=box style=filled]
+	<__main__.Node object at 0x0000022CA51DA290> [label=Good fillcolor=lightgreen shape=ellipse style=filled]
+	<__main__.Node object at 0x0000022CA51DAFE0> -> <__main__.Node object at 0x0000022CA51DA290> [xlabel=True]
+	<__main__.Node object at 0x0000022CA51EC880> [label=Bad fillcolor=lightpink shape=ellipse style=filled]
+	<__main__.Node object at 0x0000022CA51DAFE0> -> <__main__.Node object at 0x0000022CA51EC880> [label=False]
+	<__main__.Node object at 0x0000022CA51DA770> -> <__main__.Node object at 0x0000022CA51DAFE0> [label=False]
+	<__main__.Node object at 0x0000022CA51BB190> -> <__main__.Node object at 0x0000022CA51DA770> [xlabel=True]
+	<__main__.Node object at 0x0000022CA51DA860> [label="A3 <= 1.165
+Entropy = 0.935
+Information Gain = 0.139" fillcolor=lightblue shape=box style=filled]
+	<__main__.Node object at 0x0000022CA51DB490> [label="A3 <= 0.5
+Entropy = 0.881
+Information Gain = 0.881" fillcolor=lightblue shape=box style=filled]
+	<__main__.Node object at 0x0000022CA51EE020> [label=Good fillcolor=lightgreen shape=ellipse style=filled]
+	<__main__.Node object at 0x0000022CA51DB490> -> <__main__.Node object at 0x0000022CA51EE020> [xlabel=True]
+	<__main__.Node object at 0x0000022CA51EEE60> [label=Bad fillcolor=lightpink shape=ellipse style=filled]
+	<__main__.Node object at 0x0000022CA51DB490> -> <__main__.Node object at 0x0000022CA51EEE60> [label=False]
+	<__main__.Node object at 0x0000022CA51DA860> -> <__main__.Node object at 0x0000022CA51DB490> [xlabel=True]
+	<__main__.Node object at 0x0000022CA51ED450> [label="A15 <= 35
+Entropy = 0.764
+Information Gain = 0.177" fillcolor=lightblue shape=box style=filled]
+	<__main__.Node object at 0x0000022CA51EEE30> [label=Good fillcolor=lightgreen shape=ellipse style=filled]
+	<__main__.Node object at 0x0000022CA51ED450> -> <__main__.Node object at 0x0000022CA51EEE30> [xlabel=True]
+	<__main__.Node object at 0x0000022CA51EF940> [label=Bad fillcolor=lightpink shape=ellipse style=filled]
+	<__main__.Node object at 0x0000022CA51ED450> -> <__main__.Node object at 0x0000022CA51EF940> [label=False]
+	<__main__.Node object at 0x0000022CA51DA860> -> <__main__.Node object at 0x0000022CA51ED450> [label=False]
+	<__main__.Node object at 0x0000022CA51BB190> -> <__main__.Node object at 0x0000022CA51DA860> [label=False]
+	<__main__.Node object at 0x0000022CA51B8970> -> <__main__.Node object at 0x0000022CA51BB190> [xlabel=True]
+	<__main__.Node object at 0x0000022CA51D9CC0> [label="A15 <= 327
+Entropy = 0.544
+Information Gain = 0.544" fillcolor=lightblue shape=box style=filled]
+	<__main__.Node object at 0x0000022CA51D8E50> [label=Good fillcolor=lightgreen shape=ellipse style=filled]
+	<__main__.Node object at 0x0000022CA51D9CC0> -> <__main__.Node object at 0x0000022CA51D8E50> [xlabel=True]
+	<__main__.Node object at 0x0000022CA51D8250> [label=Bad fillcolor=lightpink shape=ellipse style=filled]
+	<__main__.Node object at 0x0000022CA51D9CC0> -> <__main__.Node object at 0x0000022CA51D8250> [label=False]
+	<__main__.Node object at 0x0000022CA51B8970> -> <__main__.Node object at 0x0000022CA51D9CC0> [label=False]
+	<__main__.Node object at 0x0000022CA5197100> -> <__main__.Node object at 0x0000022CA51B8970> [label=False]
+	<__main__.Node object at 0x0000022CA5197F70> -> <__main__.Node object at 0x0000022CA5197100> [xlabel=True]
+	<__main__.Node object at 0x0000022CA51BB6A0> [label="A1 <= a
+Entropy = 0.202
+Information Gain = 0.043" fillcolor=lightblue shape=box style=filled]
+	<__main__.Node object at 0x0000022CA51BA530> [label="A3 <= 0.335
+Entropy = 0.398
+Information Gain = 0.103" fillcolor=lightblue shape=box style=filled]
+	<__main__.Node object at 0x0000022CA51B9CC0> [label=Bad fillcolor=lightpink shape=ellipse style=filled]
+	<__main__.Node object at 0x0000022CA51BA530> -> <__main__.Node object at 0x0000022CA51B9CC0> [xlabel=True]
+	<__main__.Node object at 0x0000022CA51DBA90> [label="A15 <= 990
+Entropy = 0.303
+Information Gain = 0.074" fillcolor=lightblue shape=box style=filled]
+	<__main__.Node object at 0x0000022CA51DA890> [label="A15 <= 824
+Entropy = 0.567
+Information Gain = 0.22" fillcolor=lightblue shape=box style=filled]
+	<__main__.Node object at 0x0000022CA51D9F90> [label=Good fillcolor=lightgreen shape=ellipse style=filled]
+	<__main__.Node object at 0x0000022CA51DA890> -> <__main__.Node object at 0x0000022CA51D9F90> [xlabel=True]
+	<__main__.Node object at 0x0000022CA51EF460> [label=Bad fillcolor=lightpink shape=ellipse style=filled]
+	<__main__.Node object at 0x0000022CA51DA890> -> <__main__.Node object at 0x0000022CA51EF460> [label=False]
+	<__main__.Node object at 0x0000022CA51DBA90> -> <__main__.Node object at 0x0000022CA51DA890> [xlabel=True]
+	<__main__.Node object at 0x0000022CA51D9E40> [label=Good fillcolor=lightgreen shape=ellipse style=filled]
+	<__main__.Node object at 0x0000022CA51DBA90> -> <__main__.Node object at 0x0000022CA51D9E40> [label=False]
+	<__main__.Node object at 0x0000022CA51BA530> -> <__main__.Node object at 0x0000022CA51DBA90> [label=False]
+	<__main__.Node object at 0x0000022CA51BB6A0> -> <__main__.Node object at 0x0000022CA51BA530> [xlabel=True]
+	<__main__.Node object at 0x0000022CA51B9D50> [label=Good fillcolor=lightgreen shape=ellipse style=filled]
+	<__main__.Node object at 0x0000022CA51BB6A0> -> <__main__.Node object at 0x0000022CA51B9D50> [label=False]
+	<__main__.Node object at 0x0000022CA5197F70> -> <__main__.Node object at 0x0000022CA51BB6A0> [label=False]
+	<__main__.Node object at 0x0000022C8B3CEC80> -> <__main__.Node object at 0x0000022CA5197F70> [label=False]
+}

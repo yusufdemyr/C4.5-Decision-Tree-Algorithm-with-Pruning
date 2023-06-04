@@ -1,0 +1,14 @@
+Egitim (Train) sonucu:
+Accuracy: 0.9591836734693877
+TP rate: 0.9471153846153846
+TN rate: 0.9680851063829787
+TP count: 197
+TN count: 273
+
+Sinama (Test) sonucu:
+
+Accuracy: 0.755
+TP rate: 0.7272727272727273
+TN rate: 0.7821782178217822
+TP count: 72
+TN count: 79
